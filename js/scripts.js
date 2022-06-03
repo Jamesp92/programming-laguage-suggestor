@@ -21,5 +21,10 @@ $(document).ready(function() {
       $('#sorry').show();
       $('form#quiz').hide();
     }
+    $(".answer").click(function() {
+      $("form#quiz").show();
+      $("#react").hide();
+    });
+
   });
 });
