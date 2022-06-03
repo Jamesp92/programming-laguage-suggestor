@@ -11,8 +11,8 @@ this is a survey / quiz for programing languages .
 - HTML
 - CSS
 - boostrap
--javascript
--jquery
+- javascript
+- jquery
 
 
 ## Description:
