@@ -1,0 +1,75 @@
+#cSharp{
+  display:none;
+  color: aliceblue;
+
+}
+
+#javaScript{
+   display: none;
+   color: aliceblue;
+}
+
+#react{
+  display:none;
+  color: aliceblue;
+}
+
+.answer{
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.answer:hover {
+  text-decoration: underline;
+}
+
+body{
+  background-image: url(https://www.abbottsconstruction.com/wp-content/uploads/2015/10/Grey-website-background.png);
+}
+
+label{
+  color: aliceblue;
+}
+h1{
+color: darkred;
+text-shadow:5px 5px 10px black;
+padding: 9px;
+margin: auto;
+width: 50%;
+
+}
+h2{
+  color: lightgreen;
+text-shadow:5px 5px 10px darkgreen;
+}
+h3{
+  color: white;
+  text-shadow:5px 5px 10px grey;
+  padding: 10px;
+  margin: auto;
+  width: 50%;
+
+
+}
+img{
+  border: 2px solid black;
+  padding: 10px;
+  background-color:yellow;
+  box-sizing: border-box;
+  margin: auto;
+  width: 50%;
+  height: auto;
+  display: block;
+
+}
+
+p{
+  padding: 10px;
+  box-sizing: border-box;
+  margin: auto;
+  width: 50%;
+  height: auto;
+  display: block;
+}
+
+
