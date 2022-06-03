@@ -18,17 +18,6 @@ $(document).ready(function() {
     } else if (inputSport === 3 && inputDessert === 1 && inputSeason >=1 && inputAnimals >=1) {
       $('#react').show();
       $('form#quiz').hide();
-    } if (inputColor === 3 && inputAge === 3) {
-      $('#sorry').show();
-      $('form#quiz').hide();
-
-    }
-    
-    $("#react").reset(function() {
-      $("form#quiz").show();
-      $('#react').hide();
-    });
+    } 
   });
-  
-
 });
