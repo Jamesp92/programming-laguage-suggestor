@@ -4,17 +4,18 @@ $(document).ready(function() {
     const inputSport = parseInt($("input:radio[name=sport]:checked").val());
     const inputSeason = parseInt($("input:radio[name=season]:checked").val());
     const inputTacos = parseInt($("input:radio[name=tacos]:checked").val());
-    const inputAge = parseInt($("#age").val());
-    const beverage = $("#beverage").val();
+    const inputDessert = parseInt($("#dessert").val());
+    const inputAnimals = parseInt($("#wouldRather").val());
 
-    if (inputColor === 1 && inputAge <= 3) {
+    if (inputSport === 1 && inputDessert >=1 && inputSeason >=1 && inputAnimals >=1  ) {
       $('#cSharp').show();
       $('form#quiz').hide();
-    } else if (inputColor === 2 && inputAge >= 1)  {
-      $('#msPiggy').show();
+    }
+     else if (inputSport === 2 && inputDessert >=1 && inputSeason >=1 && inputAnimals >=1)  {
+      $('#javaScript').show();
       $('form#quiz').hide();
-    } else if (inputColor === 3 && inputAge <= 2) {
-      $('#animal').show();
+    } else if (inputSport === 3 && inputDessert === 1 && inputSeason >=1 && inputAnimals >=1) {
+      $('#react').show();
       $('form#quiz').hide();
     } if (inputColor === 3 && inputAge === 3) {
       $('#sorry').show();
