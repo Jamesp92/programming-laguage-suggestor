@@ -7,17 +7,22 @@ $(document).ready(function() {
     const inputDessert = parseInt($("#dessert").val());
     const inputAnimals = parseInt($("#wouldRather").val());
 
-    if (inputSport === 1 && inputDessert >=1 && inputSeason >=1 && inputAnimals >=1  ) {
+    if (inputSport === 1 && inputDessert >=1 && inputSeason >=1 && inputAnimals >=1){
       $('#cSharp').show();
       $('form#quiz').hide();
     }
-     else if (inputSport === 2 && inputDessert >=1 && inputSeason >=1 && inputAnimals >=1)  {
+     else if (inputSport === 2 && inputDessert >=1 && inputSeason >=1 && inputAnimals >=1){
       $('#javaScript').show();
       $('form#quiz').hide();
 
-    } else if (inputSport === 3 && inputDessert === 1 && inputSeason >=1 && inputAnimals >=1) {
+    } else if (inputSport === 3 && inputDessert === 1 && inputSeason >=1 && inputAnimals >=1){
       $('#react').show();
       $('form#quiz').hide();
     } 
+    else if (inputSport === 3 && inputDessert <=3 && inputAnimals === 2 && inputSeason === 3 && inputTacos === 2) {
+      $('#react').show();
+      $('form#quiz').hide();
+
+    }
   });
 });
