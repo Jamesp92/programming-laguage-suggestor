@@ -14,17 +14,21 @@ $(document).ready(function() {
      else if (inputSport === 2 && inputDessert >=1 && inputSeason >=1 && inputAnimals >=1)  {
       $('#javaScript').show();
       $('form#quiz').hide();
+
     } else if (inputSport === 3 && inputDessert === 1 && inputSeason >=1 && inputAnimals >=1) {
       $('#react').show();
       $('form#quiz').hide();
     } if (inputColor === 3 && inputAge === 3) {
       $('#sorry').show();
       $('form#quiz').hide();
-    }
-    $("#quiz.answer").click(function() {
-      $("#quiz").toggle();
-      $("#react").toggle();
-    });
 
+    }
+    
+    $("#react").reset(function() {
+      $("form#quiz").show();
+      $('#react').hide();
+    });
   });
+  
+
 });

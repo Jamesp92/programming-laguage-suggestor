@@ -9,91 +9,101 @@
 </head>
 <body>
 <div class="container">
-   <form id="quiz">
-    <h1><u>what programming language should you learn?</u></h1>
-    <div id="favSport"> 
-      <h1>Favorite sport</h1>
-      <div class="radio">
-        <label>
-          <input type="radio" name="sport" value="1" checked>
-          baseball
-        </label>
+ 
+    <form id="quiz">
+      <h1><u>what programming language should you learn?</u></h1>
+
+      <h3>answer these questions and find out:</h3>
+
+      <div id="favSport"> 
+        <h2>Favorite sport</h2>
+        <div class="radio">
+          <label>
+            <input type="radio" name="sport" value="1" checked>
+            baseball
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="sport" value="2">
+           Hockey
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="sport" value="3">
+          Football
+          </label>
+        </div>
       </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="sport" value="2">
-          Hockey
-        </label>
+      <div class="faveDessert"> 
+        <h2>What is your favorite dessert</h2>
+        <select class="form-control" id="dessert">
+          <option value="1">Brownie sundea</option>
+          <option value="2">Cheesecake</option>
+          <option value="3">Apple pie</option>
+        </select>
       </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="sport" value="3">
-         Football
-        </label>
+      <div class ="favSeason">
+        <h2>favorite Season</h2>
+        <div class="radio">
+          <label>
+            <input type="radio" name="season" value="1" checked>
+            Fall
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="season" value="2">
+            Summer
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="season" value="3">
+          Winter
+          </label>
+        </div>
       </div>
-    </div>
-    <div class="faveDessert"> 
-      <h2>What is your favorite dessert</h2>
-      <select class="form-control" id="dessert">
-        <option value="1">Brownie sundea</option>
-        <option value="2">Cheesecake</option>
-        <option value="3">Apple pie</option>
+    <div class="animals" >
+      <h2>would you rather speak all languages or be able to talk to animals?</h2>
+      <select class="form-control" id="wouldRather">
+        <option value="1">talk to animals</option>
+        <option value="2">speak all languages</option>
       </select>
-    </div>
-    <div class ="favSeason">
-      <h2>favorite Season</h2>
-      <div class="radio">
-        <label>
-          <input type="radio" name="season" value="1" checked>
-          Fall
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="season" value="2">
-          Summer
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="season" value="3">
-         Winter
-        </label>
-      </div>
-    </div>
-   <div class="animals" >
-    <h2>would you rather speak all languages or be able to talk to animals?</h2>
-    <select class="form-control" id="wouldRather">
-      <option value="1">talk to animals</option>
-      <option value="2">speak all languages</option>
-    </select>
-   </div> 
-    <div class = "Season">
-      <h2>Pizza or Tacos?</h2>
-      <div class="radio">
-        <label>
-          <input type="radio" name="tacos" value="1" checked>
-          Tacos?
-        </label>
-      </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="tacos" value="2">
-              pizza
-            </label>
-          </div>
-      </div>
-    <button type="submit" class="btn-lg">submit</button>
-  </form>
-<div id="cSharp" >
-  <p><div class="answer">looks like c# would be the best programming language for you</div></p>
-</div>
-  <div id="javaScript">
-    <p><div class="answer">looks like javascript would be the best programming language for you</div> </p>
-  </div> 
- <div id="react">
-    <p>  looks like React would be the best programming language for you , to take the quiz again <div class="answer">click here</div> </p>
- </div>
+    </div> 
+      <div class = "Season">
+        <h2>Pizza or Tacos?</h2>
+        <div class="radio">
+          <label>
+            <input type="radio" name="tacos" value="1" checked>
+            Tacos?
+          </label>
+        </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="tacos" value="2">
+                pizza
+              </label>
+            </div>
+        </div>
+      <button type="submit" class="btn-lg">submit</button>
+    </form>
+  <div id="cSharp" >
+      <div id="sharp">
+        <p>looks like c# would be the best programming language for you<</p>
+        <p>to take the quiz again click here</div></p>
+        <button onclick="(window.location.reload())" class="btn-lg">Try Again</button>
+      </div>  
+    <div id="javaScript">
+      <p><div id ="java">looks like javascript would be the best programming language for you</div> </p>
+      <button onclick="(window.location.reload())" class="btn-lg">Try Again</button>
+    </div> 
+  <div id="react">
+      <p>  looks like React would be the best programming language for you , to take the quiz again </p>
+      <button onclick="(window.location.reload())" class="btn-lg ">Try Again</button>
+  </div>
+ </div> 
 </div>
 </body>
 </html>
