@@ -21,9 +21,9 @@ $(document).ready(function() {
       $('#sorry').show();
       $('form#quiz').hide();
     }
-    $(".answer").click(function() {
-      $("form#quiz").show();
-      $("#react").hide();
+    $("#quiz.answer").click(function() {
+      $("#quiz").toggle();
+      $("#react").toggle();
     });
 
   });
